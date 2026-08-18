@@ -1,0 +1,76 @@
+{
+  "name": "Your Name",
+  "contact": "email@example.com  ·  (555) 555-5555  ·  linkedin.com/in/yourprofile  ·  yoursite.com",
+  "location": "Your City, State (remote)",
+  "citizenship": "U.S. citizen",
+
+  "comp_floor": 200000,
+  "comp_target": [300000, 400000],
+
+  "tech_stack": {
+    "primary": ["python", "typescript", "elixir"],
+    "secondary": ["c", "c#", "go"],
+    "cloud": ["aws", "eks", "lambda", "s3", "dynamodb", "cloudfront"],
+    "infrastructure": ["kubernetes", "terraform", "helm", "ci/cd", "gitlab"],
+    "ai": ["mcp", "model context protocol", "bedrock", "agent orchestration", "multi-agent", "strands", "litellm", "vertex ai"],
+    "data": ["postgresql", "redis", "dynamodb", "sqs", "sns"],
+    "eval": ["agent evaluation", "eval harness", "no-regression gates", "llm-as-judge", "ground-truthed corpora"]
+  },
+
+  "scoring_weights": {
+    "primary_language": 3,
+    "mcp": 3,
+    "agent_orchestration": 2,
+    "eval_observability": 2,
+    "cloud_infra": 2,
+    "remote": 2,
+    "comp_above_floor": 1,
+    "staff_or_above": 1,
+    "no_go_requirement": 1,
+    "no_rag_requirement": 1,
+    "wlb_positive": 1,
+    "culture_positive": 1,
+    "go_required": -2,
+    "rag_required": -1,
+    "on_call": -1,
+    "wlb_negative": -1,
+    "culture_negative": -1
+  },
+
+  "culture_positive_signals": [
+    "unlimited pto", "unmetered pto", "flexible hours", "remote-first",
+    "remote-only", "fully remote", "async", "asynchronous", "work from anywhere",
+    "kindness", "autonomy", "balance", "wellness", "recharge",
+    "transparency", "transparent", "open source", "open-source",
+    "psychological safety", "inclusive", "mentorship", "learning",
+    "collaborative", "low ego", "growth mindset"
+  ],
+
+  "culture_negative_signals": [
+    "fast-paced", "relentless", "urgency", "high ownership", "we move fast",
+    "hardcore", "scrappy", "wear many hats", "ambiguity", "cut corners",
+    "ship fast", "grind", "24/7", "always-on", "high-velocity",
+    "intense", "championship team", "long hours",
+    "stack ranking", "forced distribution", "up or out",
+    "competitive", "cutthroat", "political"
+  ],
+
+  "domain_signals": [
+    "agentic", "agent platform", "agent runtime", "agent execution", "agent orchestration",
+    "mcp", "model context protocol", "llm gateway", "inference gateway",
+    "agent evaluation", "agent harness", "agent governance", "agent infrastructure",
+    "multi-agent", "tool calling", "tool use", "tool integration",
+    "prompt engineering", "eval harness", "no-regression", "guardrail",
+    "workflow orchestration", "agent sandbox"
+  ],
+
+  "seniority_levels": ["senior", "staff", "principal", "lead", "director"],
+
+  "remote_regions": ["us", "global", "na"],
+
+  "notion": {
+    "enabled": true,
+    "pipeline_collection_id": "your-collection-id-here",
+    "exclude_stages": ["Applied", "Rejected", "Withdrawn", "On Hold"]
+  }
+}
